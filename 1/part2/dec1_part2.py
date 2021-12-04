@@ -1,10 +1,10 @@
 f = open('data.txt', 'r')
+lines = [int(l.rstrip()) for l in f.readlines()]
 
 cpt = 0
-values = [int(v) for v in f]
 sums = []
-for i in range(len(values)-2):
-    sums.append(values[i]+values[i+1]+values[i+2])
+for i in range(len(lines)-2):
+    sums.append(lines[i]+lines[i+1]+lines[i+2])
 
 highestValue = sums[0]
 for s in sums[1:]:

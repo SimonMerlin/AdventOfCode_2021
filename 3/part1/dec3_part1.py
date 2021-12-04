@@ -1,9 +1,9 @@
 f = open('data.txt', 'r')
+lines = [l.rstrip() for l in f.readlines()]
 
 sums = []
 cptLine = 0
-for line in f:
-    line = line.rstrip()
+for line in lines:
     if sums == []:
         sums = [0 for _ in range(len(line))]
     cptLine+=1
@@ -20,4 +20,4 @@ for count in sums:
         gamma +='0'
         epsilon +='1'
         
-print(gamma*epsilon)
+print(int(gamma, 2)*int(epsilon, 2))
