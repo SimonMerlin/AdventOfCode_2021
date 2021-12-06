@@ -1,6 +1,7 @@
 from Board import Board
-
-f = open('data.txt', 'r')
+import sys
+import os
+f = open(os.path.join(sys.path[0], './data.txt'), 'r')
 lines = [l.rstrip() for l in f.readlines()]
 
 numbers = [int(n.strip()) for n in lines[0].split(',')]

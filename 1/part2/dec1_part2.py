@@ -1,4 +1,6 @@
-f = open('data.txt', 'r')
+import sys
+import os
+f = open(os.path.join(sys.path[0], './data.txt'), 'r')
 lines = [int(l.rstrip()) for l in f.readlines()]
 
 cpt = 0
