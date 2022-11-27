@@ -3,7 +3,7 @@
 <h2>Not an offical repository from Advent Of Code</h2>
 </br>
 
-This repository contains all the answers to [https://adventofcode.com](https://adventofcode.com) day by day on each puzzle for 2021.
+This repository contains all the answers to [https://adventofcode.com](https://adventofcode.com) day by day on each puzzle (from day 1 to day 20 included) for 2021.
 
 <b>I am not affiliated in any with the creators of `Advent Of Code` and this is not the officials answers of these puzzles. </b>I have do it on my own and want to share my solutions with those who have not found them.
 
